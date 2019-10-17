@@ -16,5 +16,10 @@ namespace DIWorkshop.Managers
 		{
 			return _driverRepository.GetDriver(id);
 		}
+
+        public Driver GetDriverByCar (int id)
+        {
+            return _driverRepository.GetDriverByCar(id);
+        }
 	}
 }

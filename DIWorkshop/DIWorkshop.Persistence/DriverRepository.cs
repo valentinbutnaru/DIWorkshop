@@ -17,5 +17,11 @@ namespace DIWorkshop.Persistence
 		{
 			return _dbContext.Drivers.FirstOrDefault(x => x.Id == id);
 		}
-	}
+
+        public Driver GetDriverByCar(int id)
+        {
+            return _dbContext.Drivers.FirstOrDefault(x => x.Car.Id == id);
+        }
+
+    }
 }

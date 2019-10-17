@@ -33,6 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Autofac, Version=4.9.4.0, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">
+      <HintPath>..\packages\Autofac.4.9.4\lib\net45\Autofac.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -43,11 +46,27 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ContainerConfig.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DIWorkshop.Interfaces\DIWorkshop.Interfaces.csproj">
+      <Project>{AD71DF34-B1DF-4EAA-85B9-0DF8D464AF25}</Project>
+      <Name>DIWorkshop.Interfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DIWorkshop.Managers\DIWorkshop.Managers.csproj">
+      <Project>{D7348E74-D6D5-460C-A305-345D9B98BCD6}</Project>
+      <Name>DIWorkshop.Managers</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DIWorkshop.Persistence\DIWorkshop.Persistence.csproj">
+      <Project>{AC99EF18-70F8-47A0-B693-8BECE81A07EA}</Project>
+      <Name>DIWorkshop.Persistence</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
