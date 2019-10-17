@@ -1,10 +1,9 @@
 ﻿using DIWorkshop.Entities;
-using DIWorkshop.Interfaces;
 using System.Linq;
 
 namespace DIWorkshop.Persistence
 {
-	public class CarRepository : ICarRepository
+	public class CarRepository
     {
 		private readonly DbContext _dbContext;
 

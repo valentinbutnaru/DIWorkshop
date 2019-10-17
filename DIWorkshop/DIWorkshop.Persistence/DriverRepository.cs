@@ -1,10 +1,9 @@
 ﻿using DIWorkshop.Entities;
-using DIWorkshop.Interfaces;
 using System.Linq;
 
 namespace DIWorkshop.Persistence
 {
-	public class DriverRepository : IDriverRepository
+	public class DriverRepository
 	{
 		private readonly DbContext _dbContext;
 

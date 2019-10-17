@@ -1,15 +1,15 @@
 ﻿using DIWorkshop.Entities;
-using DIWorkshop.Interfaces;
+using DIWorkshop.Persistence;
 
 namespace DIWorkshop.Managers
 {
-	public class DriverManager : IDriverManager
+	public class DriverManager
 	{
-		private readonly IDriverRepository _driverRepository;
+		private readonly DriverRepository _driverRepository;
 
-		public DriverManager(IDriverRepository driverRepository)
+		public DriverManager()
 		{
-			_driverRepository = driverRepository;
+			_driverRepository = new DriverRepository(new DbContext());
 		}
 
 		public Driver GetDriver(int id)
