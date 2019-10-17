@@ -13,7 +13,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DIWorkshop.Managers", "DIWo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DIWorkshop.Interfaces", "DIWorkshop.Interfaces\DIWorkshop.Interfaces.csproj", "{AD71DF34-B1DF-4EAA-85B9-0DF8D464AF25}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DIWorkshop.Console", "DIWorkshop.Console\DIWorkshop.Console.csproj", "{C4E6B0A2-043A-4A4A-AA07-5545B45C9845}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DIWorkshop.ConsoleProject", "DIWorkshop.ConsoleProject\DIWorkshop.ConsoleProject.csproj", "{5D4F33FC-0485-4FD5-B520-785416023E21}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,10 +41,10 @@ Global
 		{AD71DF34-B1DF-4EAA-85B9-0DF8D464AF25}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD71DF34-B1DF-4EAA-85B9-0DF8D464AF25}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD71DF34-B1DF-4EAA-85B9-0DF8D464AF25}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C4E6B0A2-043A-4A4A-AA07-5545B45C9845}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C4E6B0A2-043A-4A4A-AA07-5545B45C9845}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C4E6B0A2-043A-4A4A-AA07-5545B45C9845}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C4E6B0A2-043A-4A4A-AA07-5545B45C9845}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D4F33FC-0485-4FD5-B520-785416023E21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D4F33FC-0485-4FD5-B520-785416023E21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D4F33FC-0485-4FD5-B520-785416023E21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D4F33FC-0485-4FD5-B520-785416023E21}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

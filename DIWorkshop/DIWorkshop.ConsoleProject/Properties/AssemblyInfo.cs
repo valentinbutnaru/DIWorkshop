@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("DIWorkshop.Console")]
+[assembly: AssemblyTitle("DIWorkshop.ConsoleProject")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("DIWorkshop.Console")]
+[assembly: AssemblyProduct("DIWorkshop.ConsoleProject")]
 [assembly: AssemblyCopyright("Copyright ©  2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("c4e6b0a2-043a-4a4a-aa07-5545b45c9845")]
+[assembly: Guid("5d4f33fc-0485-4fd5-b520-785416023e21")]
 
 // Version information for an assembly consists of the following four values:
 //
